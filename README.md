@@ -60,3 +60,9 @@ If you want to learn more about building native executables, please consult <htt
 Easily start your REST Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+
+## DB Diagram
+
+Database preview diagram url:
+
+https://app.diagrams.net/#LRecipeBoosterDBDiagram.drawio#%7B%22pageId%22%3A%22WalEphcP78WfAXFg87Zn%22%7D
