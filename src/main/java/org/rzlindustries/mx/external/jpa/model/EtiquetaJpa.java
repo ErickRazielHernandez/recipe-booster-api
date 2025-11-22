@@ -3,6 +3,9 @@ package org.rzlindustries.mx.external.jpa.model;
 import jakarta.persistence.*;
 import lombok.*;
 import org.rzlindustries.mx.core.entities.Etiqueta;
+import org.rzlindustries.mx.core.entities.Receta;
+
+import java.util.Objects;
 
 @Setter
 @Getter
@@ -40,5 +43,18 @@ public class EtiquetaJpa {
                 .nombre(etiqueta.getNombre())
                 .color(etiqueta.getColor())
                 .build();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        EtiquetaJpa that = (EtiquetaJpa) o;
+        return Objects.equals(id, that.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }
