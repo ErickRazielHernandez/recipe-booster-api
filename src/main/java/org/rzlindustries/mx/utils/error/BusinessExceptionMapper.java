@@ -1,4 +1,4 @@
-package org.rzlindustries.mx.util.error;
+package org.rzlindustries.mx.utils.error;
 
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.Produces;

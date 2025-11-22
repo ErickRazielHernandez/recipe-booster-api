@@ -63,6 +63,6 @@ Easily start your REST Web Services
 
 ## DB Diagram
 
-Database preview diagram url:
+Database preview diagram url
 
-https://app.diagrams.net/#LRecipeBoosterDBDiagram.drawio#%7B%22pageId%22%3A%22WalEphcP78WfAXFg87Zn%22%7D
+<https://app.diagrams.net/#LRecipeBoosterDBDiagram.drawio#%7B%22pageId%22%3A%22WalEphcP78WfAXFg87Zn%22%7D>

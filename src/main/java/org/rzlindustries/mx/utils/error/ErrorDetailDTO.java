@@ -1,4 +1,4 @@
-package org.rzlindustries.mx.util.error;
+package org.rzlindustries.mx.utils.error;
 
 import lombok.Builder;
 import lombok.Getter;

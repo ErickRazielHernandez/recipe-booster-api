@@ -5,8 +5,9 @@ import lombok.Getter;
 
 @Getter
 @Builder
-public class Tag {
+public class Etiqueta {
     private Integer id;
     private Integer idTipo;
     private String nombre;
+    private String color;
 }
