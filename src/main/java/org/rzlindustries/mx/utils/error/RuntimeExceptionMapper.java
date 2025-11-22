@@ -1,4 +1,4 @@
-package org.rzlindustries.mx.util.error;
+package org.rzlindustries.mx.utils.error;
 
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.Produces;
@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
 
-import static org.rzlindustries.mx.util.error.ErrorMapper.buildErrorDetail;
+import static org.rzlindustries.mx.utils.error.ErrorMapper.buildErrorDetail;
 
 @Slf4j
 @Provider
@@ -21,7 +21,7 @@ public class RuntimeExceptionMapper implements ExceptionMapper<RuntimeException>
     UriInfo uriInfo;
 
     /**
-     * Método para mapear las excepciones no controladas
+     * Mapeo de excepciones no controladas
      *
      * @param ex excepción no controlada
      * @return response con el error 500

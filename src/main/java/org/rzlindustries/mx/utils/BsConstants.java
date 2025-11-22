@@ -1,4 +1,4 @@
-package org.rzlindustries.mx.util;
+package org.rzlindustries.mx.utils;
 
 import java.time.ZoneId;
 

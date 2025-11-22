@@ -1,4 +1,4 @@
-package org.rzlindustries.mx.util.error;
+package org.rzlindustries.mx.utils.error;
 
 import lombok.Getter;
 
@@ -19,7 +19,15 @@ public enum ErrorCodeEnum implements ErrorCode {
     /**
      * REB-RN-S003. Formato de los campos
      */
-    REB_RNS003("Formato de los campos");
+    REB_RNS003("Formato de los campos"),
+    /**
+     * REB-RN-N001. Unicidad en los campos.
+     */
+    REB_RNN001("Unicidad en los campos"),
+    /**
+     * REB-RN-N002. Longitud del campo ingresado.
+     */
+    REB_RNN002("Longitud del campo ingresado");
 
     private final String detail;
 
